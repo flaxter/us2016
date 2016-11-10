@@ -1,9 +1,10 @@
 # us2016
 Replication files for "Understanding the 2016 US Presidential Election using ecological inference and distribution regression with census microdata" 
-Questions: (Seth Flaxman)[flaxman@stats.ox.ac.uk]
 
-Read the paper and send us comments, please! (PDF)[https://github.com/flaxter/us2016/blob/master/us2016.pdf]
+Questions: [Seth Flaxman](flaxman@stats.ox.ac.uk)
+
+Read the paper and send us comments, please! [PDF](https://github.com/flaxter/us2016/blob/master/us2016.pdf)
 
 To replicate it, the main package you want to install first is
-(pummeler)[http://github.com/dougalsutherland/pummeler]. The scripts here are
+[pummeler](http://github.com/dougalsutherland/pummeler). The scripts here are
 to carry out analysis based on the data produced by pummeler.
