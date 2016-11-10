@@ -47,7 +47,7 @@ exit.data = function(n.features) {
   merged.subgroup[, sample := sum(total_n), by=c("state","factor")]
   head(merged.subgroup[,c("state","subgroup","votes_D","votes_R","total_n","sample","citizens"),with=F])
   
-  election2016 = data.table(read.csv("../data/results-nbc.csv"))
+  election2016 = data.table(read.csv("../data/results-2016-election.csv"))
   election2016.state = data.table(election2016)[, list(votes_tot = sum(votes_D + votes_R)),by=list(state=substr(region,1,2))]
   merged.subgroup=merge(merged.subgroup,election2016.state,by="state")
  # merged.subgroup$citizens = merged.subgroup$sample / merged.subgroup$votes_tot * merged.subgroup$citizens

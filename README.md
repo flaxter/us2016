@@ -1,2 +1,6 @@
 # us2016
-Replication files for "WTF: the 2016 US Presidential Election"
+Replication files for "Understanding the 2016 US Presidential Election using ecological inference and distribution regression with census microdata" 
+Questions: (Seth Flaxman)[flaxman@stats.ox.ac.uk]
+
+The main package you want to install first is (pummeler)[http://github.com/dougalsutherland/pummeler]. The scripts here are to carry out analysis
+based on the data produced by pummeler.

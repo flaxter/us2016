@@ -20,7 +20,7 @@ read.data = function(omit.cats = TRUE) {
   election2012[, votes_G := NULL]
   
   # 2016 data
-  election2016 = data.table(read.csv("../data/results-nbc.csv"))
+  election2016 = data.table(read.csv("../data/results-2016-election.csv"))
   #election2016 = merge(election2016,citizens,by="region")
   #setnames(election2016,"total_wt","citizens")
   
